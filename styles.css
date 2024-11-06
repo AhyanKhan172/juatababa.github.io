@@ -1,0 +1,185 @@
+#cooldiv {
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 400px;
+    background-color: #cdcdcd;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #000000;
+}
+
+body {
+    text-align: center;
+    background-position:center;
+    background-color: #343a40;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#no {
+    font-family: 'Pixelify Sans';
+    font-weight: bolder;
+    text-align: center;
+    outline: solid;
+    outline-color: #000;
+    outline-width: 0;
+    width: 60px;
+    font-size: 20px;
+    border-color: transparent;
+    background-color: #ff7d7d;
+    border-radius: 5px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    transition-behavior: ease;
+    transition-duration: 0.3s;
+}
+
+#no:hover {
+    background-color: #c55f5f;
+    cursor: pointer;
+    width: 75px;
+}
+
+#sigmainputselect {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+#funnybutton {
+    font-family: 'Pixelify Sans';
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    outline: solid;
+    outline-color: #000;
+    outline-width: 0;
+    width: 75px;
+    font-size: 14px;
+    border-color: transparent;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    transition-behavior: ease;
+    transition-duration: 0.3s;
+}
+
+#funnybutton:hover {
+    background-color: #cdcdcd;
+    cursor: pointer;
+    width: 90px;
+}
+
+#yes {
+    font-family: 'Pixelify Sans';
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    outline: solid;
+    outline-color: #000;
+    outline-width: 0;
+    width: 60px;
+    font-size: 20px;
+    border-color: transparent;
+    background-color: #93ff7d;
+    border-radius: 5px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    transition-behavior: ease;
+    transition-duration: 0.3s;
+}
+
+#yes:hover {
+    background-color: #5fc563;
+    cursor: pointer;
+    width: 75px;
+}
+
+#rainbow {
+    font-family: monospace;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    letter-spacing: 5px;
+    animation: colorRotate 6s linear 0s infinite;
+}
+
+#sussybody #rainbow {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#cooldivbut {
+    position: relative;
+    width: 800px;
+    height: 700px;
+    padding: 0%;
+    background-color: #881414;
+    margin-left: auto;
+    margin-right: auto;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: #d8848c;
+}
+
+#windowtab {
+    background-color: #d8848c;
+    width: 800px;
+    height: 20px;
+}
+
+#nuhuhbuttonsus {
+    background-color: #e22828;
+    color: white;
+    outline-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: none;
+    position: absolute;
+    text-align: var(5px);
+    margin-left: 370px;
+    margin-top: -55px;
+}
+
+#nuhuhbuttonsus:hover {
+    background-color: #951919;
+    cursor: pointer;
+}
+
+#scrolldiv {
+    overflow: scroll;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    margin-left: auto;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: #000000;
+}
+
+#sussybody {
+    padding: 10px;
+    background-image: none;
+}
+
+@keyframes colorRotate {
+    from {
+    color: #6666ff;
+    }
+    10% {
+    color: #0099ff;
+    }
+    50% {
+    color: #00ff00;
+    }
+    75% {
+    color: #ff3399;
+    }
+    100% {
+    color: #6666ff;
+    }
+}
